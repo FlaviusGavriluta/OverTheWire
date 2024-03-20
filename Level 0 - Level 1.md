@@ -11,4 +11,4 @@ The password for the next level is stored in a file called **readme** located in
 2. Password: bandit0
 3. ls: readme (file)
 4. cat readme
-5. Found Level 1's password: NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+5. Found Level 1's password: **NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL**
