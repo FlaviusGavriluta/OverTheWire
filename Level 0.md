@@ -9,7 +9,3 @@ The goal of this level is for you to log into the game using SSH. The host to wh
 [Secure Shell (SSH) on Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell)
 
 [How to use SSH on wikiHow](https://www.wikihow.com/Use-SSH)
-
-# Solution:
-1. Connect to bandit0 through ssh: **ssh bandit0@bandit.labs.overthewire.org -p 2220**
-2. Password: bandit0
