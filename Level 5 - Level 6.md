@@ -16,5 +16,6 @@ not executable
 4. cd inhere
 5. ls: maybehere00  maybehere02  maybehere04  maybehere06  maybehere08  maybehere10  maybehere12  maybehere14  maybehere16  maybehere18
     maybehere01  maybehere03  maybehere05  maybehere07  maybehere09  maybehere11  maybehere13  maybehere15  maybehere17  maybehere19 (folders)
-6. cat < -file07
-7. Found Level 6's password: **P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU**
+6. find . -type f -size 1033c ! -executable -exec file {} + | grep "ASCII test": ./maybehere07/.file2: ASCII text, with very long lines (1000)
+7. cat ./maybehere07/.file2
+8. Found Level 6's password: **P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU**
