@@ -9,7 +9,7 @@ The password for the next level is stored in a file called **spaces in this file
 [Google Search for “spaces in filename”](https://www.google.com/search?q=spaces+in+filename)
 
 # Solution:
-1. Connect to bandit1 through ssh: **ssh bandit2@bandit.labs.overthewire.org -p 2220**
+1. Connect to bandit2 through ssh: **ssh bandit2@bandit.labs.overthewire.org -p 2220**
 2. Password: rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 3. ls: spaces in this filename
 4.  cat "spaces in this filename"
