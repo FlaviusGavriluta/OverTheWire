@@ -13,4 +13,4 @@ The password for the next level is stored in a file called **spaces in this file
 2. Password: rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 3. ls: spaces in this filename
 4.  cat "spaces in this filename"
-5. Found Level 2's password: **aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG**
+5. Found Level 3's password: **aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG**
