@@ -10,4 +10,4 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 2. Password: EN632PlfYiZbn3PhVK3XOGSlNInNE00t
 3. ls: data.txt
 4. strings data.txt | grep "^===" Or strings data.txt | grep "^===" | grep -oP '=+[[:print:]]+' | grep -oP '[[:print:]]+$'
-5. Found Level 9's password: **G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s**
+5. Found Level 10's password: **G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s**
