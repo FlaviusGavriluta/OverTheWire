@@ -7,3 +7,10 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, fil
 
 ## Helpful Reading Material
 [Hex dump on Wikipedia](https://en.wikipedia.org/wiki/Hex_dump)
+
+# Solution:
+1. mkdir /tmp/CyberSec
+2. cp data.txt /tmp/CyberSec
+3. cd /tmp/CyberSec
+4. mv data.txt compressed_data.txt
+5. 
