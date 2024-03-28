@@ -9,7 +9,7 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, fil
 [Hex dump on Wikipedia](https://en.wikipedia.org/wiki/Hex_dump)
 
 # Solution:
-1. Connect to bandit11 through ssh: **ssh bandit11@bandit.labs.overthewire.org -p 2220**
+1. Connect to bandit12 through ssh: **ssh bandit12o@bandit.labs.overthewire.org -p 2220**
 2. Password: JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 3. mkdir /tmp/CyberSec
 4. cp data.txt /tmp/CyberSec
