@@ -26,6 +26,10 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, fil
 15. file data.bin: data.bin: POSIX tar archive (GNU)
 16. tar -xf data.bin
 17. file data5.bin: data5.bin: POSIX tar archive (GNU)
-18. file data6.bin 
-19. 
-20. Found Level 12's password: ****
+18. file data6.bin: data6.bin: bzip2 compressed data, block size = 900k
+19. bzip2 -d data6.bin: bzip2: Can't guess original name for data6.bin -- using data6.bin.out
+20. file data6.bin.out: data6.bin.out: POSIX tar archive (GNU)
+21. tar -xf data6.bin.out
+22. file data8.bin: data8.bin: gzip compressed data, was "data9.bin", last modified: Thu Oct  5 06:19:20 2023, max compression, from Unix, original size modulo 2^32 49
+23. gzip -dc data8.bin: The password is wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+24. Found Level 13's password: **wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw**
