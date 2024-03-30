@@ -7,3 +7,14 @@ ssh, telnet, nc, openssl, s_client, nmap
 
 ## Helpful Reading Material
 [SSH/OpenSSH/Keys](https://help.ubuntu.com/community/SSH/OpenSSH/Keys)
+
+# Solution:
+1. Connect to bandit13 through ssh: **ssh bandit13@bandit.labs.overthewire.org -p 2220**
+2. Password: wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+3. ls: sshkey.private
+4. file sshkey.private: sshkey.private: PEM RSA private key
+5. pwd: /home/bandit13
+6. ssh -i /home/bandit13/sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+7. yes
+8. cat /etc/bandit_pass/bandit14
+9. Found Level 14's password: **fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq**
