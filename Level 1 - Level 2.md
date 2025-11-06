@@ -10,9 +10,14 @@ The password for the next level is stored in a file called - located in the home
 
 [Advanced Bash-scripting Guide - Chapter 3 - Special Characters](https://tldp.org/LDP/abs/html/special-chars.html)
 
+
 # Solution:
 1. Connect to bandit1 through ssh: **ssh bandit1@bandit.labs.overthewire.org -p 2220**
-2. Password: NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
-3. ls: -
-4. cat < -
-5. Found Level 2's password: **rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi**
+2. Password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+```bash
+bandit1@bandit:~$ ls
+-
+bandit1@bandit:~$ cat < -
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+```
