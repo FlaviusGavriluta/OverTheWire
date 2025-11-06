@@ -7,9 +7,14 @@ The password for the next level is stored in a hidden file in the inhere directo
 
 # Solution:
 1. Connect to bandit3 through ssh: **ssh bandit3@bandit.labs.overthewire.org -p 2220**
-2. Password: aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
-3. ls: inhere (folder)
-4. cd inhere
-5. ls -a: .hidden (file)
-6. cat .hidden
-7. Found Level 4's password: **2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe**
+2. Password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+```bash
+bandit3@bandit:~$ ls
+inhere
+bandit3@bandit:~$ cd inhere
+bandit3@bandit:~/inhere$ ls -a
+.  ..  ...Hiding-From-You
+bandit3@bandit:~/inhere$ cat ...Hiding-From-You 
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+```
