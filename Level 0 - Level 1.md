@@ -4,7 +4,15 @@ The password for the next level is stored in a file called **readme** located in
 
 ## Commands you may need to solve this level
 
+
 [ls](https://man7.org/linux/man-pages/man1/ls.1.html) , [cd](https://man7.org/linux/man-pages/man1/cd.1p.html) , [cat](https://man7.org/linux/man-pages/man1/cat.1.html) , [file](https://man7.org/linux/man-pages/man1/file.1.html) , [du](https://man7.org/linux/man-pages/man1/du.1.html) , [find](https://man7.org/linux/man-pages/man1/find.1.html)
+
+TIP: Create a file for notes and passwords on your local machine!
+
+Passwords for levels are not saved automatically. If you do not save them yourself, you will need to start over from bandit0.
+
+Passwords also occasionally change. It is recommended to take notes on how to solve each challenge. As levels get more challenging, detailed notes are useful to return to where you left off, reference for later problems, or help others after you’ve completed the challenge.
+
 
 # Solution:
 1. Connect to bandit0 through ssh: **ssh bandit0@bandit.labs.overthewire.org -p 2220**
