@@ -10,7 +10,7 @@ The password for the next level is stored in a file called **readme** located in
 1. Connect to bandit0 through ssh: **ssh bandit0@bandit.labs.overthewire.org -p 2220**
 2. Password: bandit0
 
-````bash
+```bash
 bandit0@bandit:~$ ls
 readme
 bandit0@bandit:~$ cat readme
@@ -22,4 +22,3 @@ contribute to the OverTheWire community so we can keep these games free!
 
 The password you are looking for is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 ```
-
